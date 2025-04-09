@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/dianaapredaa/ci_cd_lab:v2
+          image: ghcr.io/dianaapredaa/ci_cd_lab:invalid-tag
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
